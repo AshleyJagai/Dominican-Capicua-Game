@@ -25,6 +25,11 @@
 - Created `games` app for managing Capicua matches and game rooms
 - Registered `games` app in backend/settings.py
 
+### ➡️ Models Setup
+- Created `GameRoom` model in `games` app to manage match rooms
+- Added many-to-many relationship with users
+- Migrated database to create GameRoom table
+
 ## 📂 Project Structure (after Setup)
 ```
 Dominican-Capicua/
