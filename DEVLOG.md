@@ -22,7 +22,8 @@
 ### ➡️ Django Apps Setup
 - Created `users` app using `python manage.py startapp users`
 - Registered `users` app in `backend/settings.py` under `INSTALLED_APPS`
-
+- Created `games` app for managing Capicua matches and game rooms
+- Registered `games` app in backend/settings.py
 
 ## 📂 Project Structure (after Setup)
 ```
