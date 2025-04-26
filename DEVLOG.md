@@ -22,13 +22,6 @@
 ### ➡️ Django Apps Setup
 - Created `users` app using `python manage.py startapp users`
 - Registered `users` app in `backend/settings.py` under `INSTALLED_APPS`
-- Created `games` app for managing Capicua matches and game rooms
-- Registered `games` app in backend/settings.py
-
-### ➡️ Models Setup
-- Created `GameRoom` model in `games` app to manage match rooms
-- Added many-to-many relationship with users
-- Migrated database to create GameRoom table
 
 ## 📂 Project Structure (after Setup)
 ```
@@ -66,4 +59,18 @@ Dominican-Capicua/
 
 *(Next major step: Create `games` app for managing Capicua matches and real-time gameplay.)*
 
+
+### ➡️ Django Apps Setup 
+- Created `games` app for managing Capicua matches and game rooms
+- Registered `games` app in backend/settings.py
+
+### ➡️ Models Setup
+- Created `GameRoom` model in `games` app to manage match rooms
+- Added many-to-many relationship with users
+- Migrated database to create GameRoom table
+
+### ➡️ Join Room API Setup
+- Built API endpoint to allow players to join an existing GameRoom
+- Enforced player limit of 4 per room
+- Updated games/urls.py to add join route
 
