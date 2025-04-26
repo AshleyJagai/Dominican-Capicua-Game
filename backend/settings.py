@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     
     # Custom apps
     "users",
+    "games",
+
 ]
 
 MIDDLEWARE = [
