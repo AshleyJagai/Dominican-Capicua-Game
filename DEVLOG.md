@@ -4,14 +4,14 @@
 
 ## 🗓️ April 25-26, 2025
 
-### ➡️ Project Setup
+### 🎯 Project Setup
 - Created main project folder `dominican-capicua/`
 - Created and activated a Python virtual environment `venv/`
 - Upgraded pip to the latest version for better package management
 - Installed Django and Django Channels for web and real-time socket support
 - Started Django project inside the folder with `django-admin startproject backend .`
 
-### ➡️ Git & GitHub Setup
+### 🎯 Git & GitHub Setup
 - Initialized Git repository locally with `git init`
 - Created remote GitHub repository `Dominican-Capicua-Game`
 - Linked local project to GitHub remote with `git remote add origin`
@@ -19,7 +19,7 @@
 - Resolved remote README conflict by merging and cleaning `.gitignore`
 - Successfully pushed local backend code and setup to GitHub
 
-### ➡️ Django Apps Setup
+### 🎯 Django Apps Setup
 - Created `users` app using `python manage.py startapp users`
 - Registered `users` app in `backend/settings.py` under `INSTALLED_APPS`
 
@@ -47,30 +47,17 @@ Dominican-Capicua/
 └── DEVLOG.md (this file)
 ```
 
-
-## 📝 Notes:
-- Django Channels will handle WebSocket communication for real-time gameplay.
-- Players (users) and game rooms (games) will be separate apps for cleaner architecture.
-- Early commits focus on backend scaffolding before frontend or game logic begins.
-- Following clean Git practices: small commits, meaningful messages, pushing after milestones.
-
-
----
-
-*(Next major step: Create `games` app for managing Capicua matches and real-time gameplay.)*
-
-
-### ➡️ Django Apps Setup 
+### 🎯 Django Apps Setup 
 - Created `games` app for managing Capicua matches and game rooms
 - Registered `games` app in backend/settings.py
 
-### ➡️ Models Setup
+### 🎯 Models Setup
 - Created `GameRoom` model in `games` app to manage match rooms
 - Added many-to-many relationship with users
 - Migrated database to create GameRoom table
 
-### ➡️ Join Room API Setup
+### 🎯 Join Room API Setup
 - Built API endpoint to allow players to join an existing GameRoom
-- Enforced player limit of 4 per room
+- Made player limit of 4 per room
 - Updated games/urls.py to add join route
 
