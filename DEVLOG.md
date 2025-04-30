@@ -57,7 +57,7 @@ Dominican-Capicua/
 └── DEVLOG.md (this file)
 ```
 
-## 🛠️ API Development
+### 🛠️ API Development
 
 ### 🎯 GameRoom Model & Migrations 
 - Created `GameRoom` model in `games/models.py`
@@ -103,7 +103,7 @@ Dominican-Capicua/
     - Tile design template (off-white background, black dots, shadow)
 
 
-## 🖥️ UI/UX Wireframes & Screens
+### 🖥️ UI/UX Wireframes & Screens
 
 ### 🎯 Login Screen
 - Fields: email/username + password
