@@ -17,7 +17,7 @@ This project aims to replicate the Dominican style of Capicua dominoes, includin
 
 ## 🎯 Current Phase
 - [x] Finalized Official Game Rules
-- [ ] Backend Foundation Setup
+- [x] Backend Foundation Setup
 - [ ] Frontend Wireframing
 - [ ] Full Game Logic Implementation
 - [ ] Testing and Deployment
