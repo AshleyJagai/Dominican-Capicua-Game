@@ -183,3 +183,4 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 >>>>>>> 2a3bde2b18d770e41e7a2d3d47d6682c678e061e
+.DS_Store

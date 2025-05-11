@@ -59,7 +59,6 @@ Dominican-Capicua/
 
 *(Next major step: Create `games` app for managing Capicua matches and real-time gameplay.)*
 
-
 ### ➡️ Django Apps Setup 
 - Created `games` app for managing Capicua matches and game rooms
 - Registered `games` app in backend/settings.py
@@ -73,4 +72,9 @@ Dominican-Capicua/
 - Built API endpoint to allow players to join an existing GameRoom
 - Enforced player limit of 4 per room
 - Updated games/urls.py to add join route
+
+### ➡️ API Testing Success
+- Successfully created GameRoom with POST /games/create/
+- Successfully joined GameRoom with POST /games/join/
+- Verified backend multiplayer foundation working
 
